@@ -1,10 +1,16 @@
 {
-  "name": "my-react-lib",
+  "name": "@pachecoandre/my-react-lib",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git://github.com/pachecoandre/my-react-lib",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
