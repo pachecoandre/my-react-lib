@@ -1,10 +1,13 @@
 import React from 'react';
-import { HelloWorld } from 'my-react-lib';
+import { HelloWorld, CustomButton } from 'my-react-lib';
 
-const App = ()  => {
+const App = () => {
 
     return (
-        <HelloWorld />
+        <>
+            <HelloWorld />
+            <CustomButton text={'Enviar'} />
+        </>
     );
 }
 
