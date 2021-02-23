@@ -6,7 +6,7 @@ const App = () => {
     return (
         <>
             <HelloWorld />
-            <CustomButton text={'Enviar'} />
+            {/* <CustomButton text={'Enviar'} /> */}
         </>
     );
 }
