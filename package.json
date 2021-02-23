@@ -12,6 +12,7 @@
   },
   "repository": "git://github.com/pachecoandre/my-react-lib",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -55,7 +56,6 @@
     "rollup-plugin-peer-deps-external": "^2.2.4"
   },
   "peerDependencies": {
-    "@material-ui/core": "^4.11.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
